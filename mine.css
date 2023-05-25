@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+    background-image: url(black2.jpg);
+    background-size: cover;
+    background-position: fixed;
+    color: white;
+}
+.grid{
+display: grid;
+grid grid-template-columns: auto;
+display:flex;
+justify-content:center;
+border: 50px black blue darkgreen yellow;
+}
+.item1{
+    width: 400px;
+    height: 400px;
+    background-image: url(asta2.jpg);
+    background-size: cover;
+    background-position: fixed;
+    animation-name:box;
+    animation-duration: 20s;
+    animation-delay: 4s;
+}
+@keyframes box{
+    from{background-image: url(asta2.jpg);}
+    to{background-image: url(asta3.jpg);}
+}
+marquee{
+    color: red;
+    width: 800px;
+}
